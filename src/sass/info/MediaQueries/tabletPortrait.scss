@@ -1,0 +1,50 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  //    @import '../mobile';
+  & {
+    header,
+    section {
+      overflow: hidden;
+    }
+    .header-item {
+      width: 50%;
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .video {
+      margin-top: 50px;
+    }
+    .reviews-item {
+      padding: 20px 28px;
+    }
+    .reviews-item h4 {
+      font-size: 27px;
+    }
+    br,
+    .appraisal-img {
+      display: none;
+    }
+    .registration-date span {
+      margin: 0;
+    }
+    .registration {
+      margin: 0;
+    }
+    .appraisal-list li {
+      margin: 15px !important;
+    }
+    .appraisal {
+      padding-bottom: 60px;
+    }
+    .book-img {
+      img {
+        width: 100%;
+      }
+    }
+    .video-link {
+    padding: 12px 16px;
+  }
+  }
+}
