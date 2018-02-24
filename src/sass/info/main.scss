@@ -8,11 +8,16 @@ a:focus, a:hover, input:focus, input:hover {
   color: inherit;
 }
 body {
-  @import 'MediaQueries/main';
+  .new_main  {
+    @import 'MediaQueries/main';
+    
+  }
+
   overflow-x: hidden;
 }
 
-.head-hgroup {
+.new_main {
+  .head-hgroup {
   text-align: center;
   h1 {
     color: #101b31;
@@ -163,7 +168,7 @@ header {
   }
   &:before {
     content: "";
-    border: 40px solid transparent;	
+    border: 40px solid transparent; 
     border-left: 40px solid #e8f7ff;
     width: 60px;
     height: 60px;
@@ -174,7 +179,7 @@ header {
   }
   &:after {
     content: "";
-    border: 40px solid transparent;	
+    border: 40px solid transparent; 
     border-left: 40px solid #f6fcff;
     width: 60px;
     height: 60px;
@@ -192,7 +197,7 @@ header {
     }
     &:before {
       content: "";
-      border: 40px solid transparent;	
+      border: 40px solid transparent; 
       border-right: 40px solid #e8f7ff;
       width: 60px;
       height: 60px;
@@ -203,7 +208,7 @@ header {
     }
     &:after {
       content: "";
-      border: 40px solid transparent;	
+      border: 40px solid transparent; 
       border-right: 40px solid #f6fcff;
       width: 60px;
       height: 60px;
@@ -486,7 +491,7 @@ border: 4px solid #e73535;
   p {
     color: #030c02;
     font-family: "Futura Demi C";
-    font-size: 21px;
+    font-size: 28px;
     font-weight: 400;
     max-width: 475px;
     span {
@@ -507,4 +512,6 @@ border: 4px solid #e73535;
     border: 0;
     width: 100%;
   }
+}
+
 }

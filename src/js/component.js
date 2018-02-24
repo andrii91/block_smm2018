@@ -32,7 +32,7 @@ $(document).ready(function () {
       $('.form-btn').fancybox();
 
       $('.reviews-carousel').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 20,
         nav: true,
         navText: false,
